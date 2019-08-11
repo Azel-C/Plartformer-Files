@@ -1,0 +1,6 @@
+import Foundation
+
+// Recevies the buttons and redirect them as needed when they are pressed
+protocol ControlInputDelegate:class {
+    func follow(command: String?)
+}
